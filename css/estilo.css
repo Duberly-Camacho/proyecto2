@@ -1,0 +1,65 @@
+/*--Codigo CSS Externo,con tipo de selector "CLASE"*/
+.body{
+    background-color: black;
+    align-items:center;
+    
+}
+
+.box {
+    background-color: rgb(168, 10, 189);
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    width: 60%;
+    text-align: center;
+    
+}
+.center{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    width: 60%;
+    border:2px solid rgb(100, 205, 159);
+}
+/*--Codigo CSS Externo,con tipo de selector "elemento"*/
+h1 {
+    background-color: rgb(84, 167, 170);
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    width: 60%;
+    text-align: center;
+    border:2px solid rgb(100, 205, 159);
+}
+h2{
+    background-color:rgb(168, 10, 189);
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    width: 60%;
+    text-align: justify;
+    border:2px solid rgb(100, 205, 159);
+}
+/*--Codigo CSS Externo,con tipo de selector "selector de grupo. Asignacion de propiedades a la fuente"*/
+h1, h2{
+font-family: verdana;
+font-style: initial;
+
+}
+
+#cabecera, #footer{ 
+    background-color:rgb(168, 10, 189);
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    width: 60%;
+    text-align: center;
+    border:2px solid rgb(100, 205, 159);
+
+}
+#section2, #section3{ 
+    align-items: center;
+    /*quiero que el tweet quede en el centro del padding pero no funciona =(*/
+
+}
