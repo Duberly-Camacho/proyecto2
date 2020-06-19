@@ -67,6 +67,8 @@ font-style: initial;
 }
 .action-button:hover{
     padding: 15px;
-    background-color:rgb(5, 156, 124);
+    background-color:rgb(35, 158, 127);
     border-radius: 10px;
     color: #ffffff;
+}
+
